@@ -106,4 +106,17 @@ const reset = () => {
         reset();
       }
     });
+
+    cancelBtn.addEventListener("click", () => confirmCloseDialog.close());
+
+discardBtn.addEventListener("click", () => {
+  confirmCloseDialog.close();
+  reset()
+});
+
+taskForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  addOrUpdateTask();
+});
     
