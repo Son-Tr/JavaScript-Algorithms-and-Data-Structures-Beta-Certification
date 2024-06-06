@@ -37,3 +37,14 @@ h1 {
     justify-content: center;
     align-items: center;
   }
+
+  .convert-btn {
+    background-color: var(--orange);
+    cursor: pointer;
+    border: none;
+    padding: 4px;
+  }
+  
+  .number-input {
+    height: 25px;
+  }
