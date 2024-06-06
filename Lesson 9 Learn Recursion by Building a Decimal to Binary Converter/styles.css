@@ -11,3 +11,14 @@
   --dark-blue: #1b1b32;
   --orange: #f1be32;
 }
+
+body {
+    background-color: var(--dark-blue);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: var(--light-grey);
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
