@@ -28,3 +28,12 @@ h1 {
     font-size: 2.3rem;
     margin: 20px 0;
 }
+
+.input-container {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
