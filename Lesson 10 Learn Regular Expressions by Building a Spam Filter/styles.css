@@ -15,3 +15,13 @@
   --orange: #ffac33;
   --dark-orange: #f89808;
 }
+
+body {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+  }
+  
+  body,
+  #message-input:placeholder-shown {
+    text-align: center;
+  }
