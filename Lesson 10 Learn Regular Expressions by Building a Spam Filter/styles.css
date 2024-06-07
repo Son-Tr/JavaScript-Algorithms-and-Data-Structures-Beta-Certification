@@ -25,3 +25,10 @@ body {
   #message-input:placeholder-shown {
     text-align: center;
   }
+  textarea {
+    max-width: 90%;
+  }
+  
+  .main-text {
+    margin: 25px 0;
+  }
