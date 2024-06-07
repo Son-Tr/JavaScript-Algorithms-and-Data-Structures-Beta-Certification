@@ -48,3 +48,21 @@ body {
     margin-bottom: 20px;
     font-size: 1.5rem;
   }
+
+  
+#message-input:placeholder-shown,
+textarea {
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: block;
+  cursor: pointer;
+  width: 200px;
+  margin: 10px auto;
+  color: var(--dark-grey);
+  background-color: var(--gold);
+  background-image: linear-gradient(var(--golden-yellow), var(--orange));
+  border-color: var(--gold);
+  border-width: 3px;
+}
