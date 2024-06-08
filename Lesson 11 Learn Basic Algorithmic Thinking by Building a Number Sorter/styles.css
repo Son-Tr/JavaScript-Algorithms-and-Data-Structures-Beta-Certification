@@ -111,3 +111,15 @@ button {
     align-items: center;
     justify-content: space-around;
   }
+
+
+  .output-value {
+    font-size: 2em;
+  }
+  
+  .alert {
+    background-color: var(--danger-background);
+    border: 3px solid var(--danger-color);
+    color: var(--danger-color);
+  }
+  
