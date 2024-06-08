@@ -46,3 +46,17 @@
     text-align: center;
     padding: 15px;
   }
+  fieldset {
+    border: 0 none;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  fieldset div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
