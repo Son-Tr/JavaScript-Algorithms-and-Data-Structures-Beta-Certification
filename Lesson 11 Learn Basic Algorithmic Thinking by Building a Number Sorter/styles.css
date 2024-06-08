@@ -94,3 +94,20 @@ button {
     outline: 3px solid var(--blue-50);
   }
   
+  .output-container {
+    width: 95%;
+    min-height: 55px;
+    margin-top: 25px;
+    border-radius: 0;
+    padding: 15px;
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+  
+  .output-array {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
