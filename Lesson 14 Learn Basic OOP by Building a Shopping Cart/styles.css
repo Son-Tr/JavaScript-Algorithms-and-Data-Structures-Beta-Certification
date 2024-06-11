@@ -47,3 +47,18 @@ body {
   .dessert-price {
     font-size: 1.2rem;
   }
+
+  .btn {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    color: var(--dark-grey);
+    background-color: var(--gold);
+    background-image: linear-gradient(var(--golden-yellow), var(--orange));
+    border-color: var(--gold);
+    border-width: 3px;
+  }
+  
+  .btn:hover {
+    background-image: linear-gradient(var(--yellow), var(--dark-orange));
+  }
