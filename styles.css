@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body, html{
+    background-color: rgb(27, 27, 50);
+    font-family:"Lato", sans-serif;
+    font-size: 16px;
+
+}
+
+a{
+    color: #f5f6f7;
+    text-decoration: none;
+}
+
+
+
+.container{
+    width: 780px;
+    margin: auto;
+}
+
+.cert-header-icon{
+    display: block;
+    height: 120px;
+    width:120px;
+    color: #f5f6f7;
+    margin: auto;
+}
+
+#title{
+    text-align: center;
+    font-size: 48px;
+    margin: 70px 0 3rem; 
+    color: #f5f6f7;
+}
+
+.list-lesson{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding:  0 15px;
+
+}
+
+.item{
+    cursor: pointer;
+    width: 100%;
+    background-color: #0A0A23;
+    transition: 0.3s;
+}
+
+.item:hover{
+    background-color: #2a2a40; 
+}
+
+
+.background-item{
+    padding: 18px 15px;
+}
+
+.lesson{
+    font-size: 20px;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.project .background-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start;
+}
+
+.certification{
+    background-color: #002ead;
+    padding:8px
+}
+
+.name-project{
+    margin-top: 1rem;
+} 
+.btn{
+    text-align: center;
+    border: 1px solid  #f5f6f7;
+    
+}
+.item.btn:hover{
+    background-color: #fff;
+}
+
+.item.btn:hover a{
+    color: #0A0A23;
+}
+
+.btn .lesson{
+    padding: 8rem 0;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 647px;
+        
+    }
+}
+@media screen and ( max-width: 922px){
+    .container{
+        width: 625px;
+        
+    }
+}
+@media screen and ( max-width: 768px){
+    .container{
+        width: 83.3%;
+        margin: auto;
+    }
+
+    #title{
+        font-size: 45px;
+    }
+
+    .lesson{
+        font-size: 1rem;
+    }
+}
