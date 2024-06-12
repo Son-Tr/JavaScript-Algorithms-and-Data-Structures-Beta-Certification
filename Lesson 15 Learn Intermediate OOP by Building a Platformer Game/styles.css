@@ -73,3 +73,18 @@
     padding: 10px;
     display: none;
   }
+
+  #canvas {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .start-screen {
+      width: 60%;
+      max-width: 700px;
+    }
+  
+    .checkpoint-screen {
+      max-width: 300px;
+    }
+  }
