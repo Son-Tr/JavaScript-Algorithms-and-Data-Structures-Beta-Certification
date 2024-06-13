@@ -93,3 +93,29 @@ body {
     list-style-position: inside;
   }
   
+  .btn {
+    cursor: pointer;
+    width: 200px;
+    margin: 10px 0 10px 0.5rem;
+    color: var(--black);
+    background-color: var(--gold);
+    background-image: linear-gradient(var(--golden-yellow), var(--orange));
+    border-color: var(--gold);
+    border-width: 3px;
+  }
+  
+  .btn:hover:enabled {
+    background-image: linear-gradient(var(--yellow), var(--dark-orange));
+  }
+  
+  @media (max-width: 992px) {
+    main {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .btn {
+      width: 120px;
+    }
+  }
