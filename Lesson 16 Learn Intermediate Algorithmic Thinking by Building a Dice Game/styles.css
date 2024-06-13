@@ -27,3 +27,20 @@ body {
     color: var(--light-grey);
     text-align: center;
   }
+
+  h1 {
+    font-size: 2.5rem;
+    margin: 25px 0;
+  }
+  
+  .rules-container {
+    display: none;
+    background-color: var(--light-grey);
+    color: var(--black);
+    width: 50%;
+    margin: 20px auto;
+    height: 300px;
+    border-radius: 10px;
+    overflow-y: scroll;
+  }
+  
