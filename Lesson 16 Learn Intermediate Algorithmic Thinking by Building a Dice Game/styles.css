@@ -18,3 +18,12 @@
   --orange: #ffac33;
   --dark-orange: #f89808;
 }
+
+body {
+    background-color: var(--dark-grey);
+  }
+  
+  header {
+    color: var(--light-grey);
+    text-align: center;
+  }
