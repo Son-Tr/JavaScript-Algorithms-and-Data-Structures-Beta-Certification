@@ -44,3 +44,22 @@ body {
     overflow-y: scroll;
   }
   
+  .rules-container ul {
+    list-style-type: none;
+  }
+  
+  .points {
+    margin-top: 15px;
+  }
+  
+  main {
+    background-color: var(--light-grey);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+    margin: auto;
+    justify-items: center;
+    width: 50%;
+    border-radius: 10px;
+  }
