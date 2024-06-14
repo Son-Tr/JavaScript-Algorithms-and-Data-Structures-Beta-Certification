@@ -15,4 +15,14 @@
     background-color: var(--main-bg-color);
     text-align: center;
   }
+  .title {
+    color: var(--light-grey);
+    margin: 20px 0;
+  }
+  
+  #author-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   
