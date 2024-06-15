@@ -74,7 +74,7 @@ const viewCount = (views) => {
   return views;
 };
 
-
+/* --------------------------- conver img to html --------------------------- */
 const avatars = (posters, users) => {
   return posters
     .map((poster) => {
@@ -90,18 +90,19 @@ const avatars = (posters, users) => {
     .join("");
 };
 
+/* --------------------------------- get API -------------------------------- */
 const fetchData = async () => {
   try {
     const res = await fetch(forumLatest);
     const data = await res.json();
     showLatestPosts(data);
   } catch (err) {
-    console.log(err);
+    // console.log(err);
   }
 };
 
-fetchData();
-
+fetchData();// get aPi when open app
+/* --------------------- convert data into table in html -------------------- */
 const showLatestPosts = (data) => {
   const { topic_list, users } = data;
   const { topics } = topic_list;
