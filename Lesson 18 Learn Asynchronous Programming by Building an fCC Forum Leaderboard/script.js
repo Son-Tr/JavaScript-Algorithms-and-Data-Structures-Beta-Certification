@@ -41,12 +41,13 @@ const forumCategory = (id) => {
   </a>`;
 };
 
+/* -------------------- Time format becomes Min Hour Day -------------------- */
 const timeAgo = (time) => {
-  const currentTime = new Date();
-  const lastPost = new Date(time);
+  const currentTime = new Date(); // get day now
+  const lastPost = new Date(time); //Create objects daily from the beginning of the input
 
   const timeDifference = currentTime - lastPost;
-  const msPerMinute = 1000 * 60;
+  const msPerMinute = 1000 * 60; // the value ms in the 1 min
 
   const minutesAgo = Math.floor(timeDifference / msPerMinute);
   const hoursAgo = Math.floor(minutesAgo / 60);
@@ -62,7 +63,7 @@ const timeAgo = (time) => {
 
   return `${daysAgo}d ago`;
 };
-
+/* --------------------------- Format number of people review --------------------------- */
 const viewCount = (views) => {
   const thousands = Math.floor(views / 1000);
 
@@ -72,6 +73,7 @@ const viewCount = (views) => {
 
   return views;
 };
+
 
 const avatars = (posters, users) => {
   return posters
