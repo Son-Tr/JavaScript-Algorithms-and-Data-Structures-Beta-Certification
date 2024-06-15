@@ -21,3 +21,17 @@
     --green: #6bca6b;
   }
   
+  body {
+    background-color: var(--main-bg-color);
+  }
+  
+  nav {
+    background-color: var(--dark-navy);
+    padding: 10px 0;
+  }
+  
+  .fcc-logo {
+    width: 210px;
+    display: block;
+    margin: auto;
+  }
