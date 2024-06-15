@@ -102,4 +102,20 @@
   .support {
     background-color: var(--light-orange);
   }
+
+  .general {
+    background-color: var(--light-green);
+  }
+  
+  .javascript {
+    background-color: var(--golden-yellow);
+  }
+  
+  .backend {
+    background-color: var(--gold);
+  }
+  
+  .python {
+    background-color: var(--green);
+  }
   
