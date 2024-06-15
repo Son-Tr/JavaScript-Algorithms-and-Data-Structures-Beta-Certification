@@ -35,3 +35,14 @@
     display: block;
     margin: auto;
   }
+
+  .title {
+    margin: 25px 0;
+    text-align: center;
+    color: var(--light-grey);
+  }
+  
+  .table-wrapper {
+    padding: 0 25px;
+    overflow-x: auto;
+  }
