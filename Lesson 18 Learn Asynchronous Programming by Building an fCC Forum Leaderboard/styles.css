@@ -135,4 +135,21 @@
     height: 30px;
   }
   
+  @media (max-width: 750px) {
+    .table-wrapper {
+      padding: 0 15px;
+    }
+  
+    table {
+      width: 700px;
+    }
+  
+    th {
+      font-size: 1.2rem;
+    }
+  
+    .post-title {
+      font-size: 1.1rem;
+    }
+  }
   
