@@ -76,3 +76,17 @@
     padding: 20px 0;
   }
   
+  .post-title {
+    font-size: 1.2rem;
+    color: var(--medium-grey);
+    text-decoration: none;
+  }
+  
+  .category {
+    padding: 3px;
+    color: var(--black);
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: 10px 0 10px;
+  }
