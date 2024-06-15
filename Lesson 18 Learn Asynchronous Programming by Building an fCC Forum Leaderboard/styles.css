@@ -118,4 +118,21 @@
   .python {
     background-color: var(--green);
   }
+
+  .motivation {
+    background-color: var(--peach);
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .avatar-container img {
+    width: 30px;
+    height: 30px;
+  }
+  
   
