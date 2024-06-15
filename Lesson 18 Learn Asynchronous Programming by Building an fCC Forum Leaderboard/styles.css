@@ -46,3 +46,17 @@
     padding: 0 25px;
     overflow-x: auto;
   }
+
+  table {
+    width: 100%;
+    color: var(--dark-grey);
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    overflow-x: scroll;
+  }
+  
+  #topics {
+    text-align: start;
+    width: 60%;
+  }
