@@ -90,3 +90,16 @@
     width: fit-content;
     margin: 10px 0 10px;
   }
+  .career {
+    background-color: var(--salmon-color);
+  }
+  
+  .feedback,
+  .html-css {
+    background-color: var(--light-blue);
+  }
+  
+  .support {
+    background-color: var(--light-orange);
+  }
+  
