@@ -16,11 +16,12 @@ const allCategories = {
   560: { category: "Backend Development", className: "backend" },
 };
 
+/* ----------------------------- format category ---------------------------- */
 const forumCategory = (id) => {
   let selectedCategory = {};
-
+/* --------------------- check id have in allCategories ?--------------------- */
   if (allCategories.hasOwnProperty(id)) {
-    const { className, category } = allCategories[id];
+    const { className, category } = allCategories[id];//take className and category in allCategories
 
     selectedCategory.className = className;
     selectedCategory.category = category;
@@ -29,10 +30,12 @@ const forumCategory = (id) => {
     selectedCategory.category = "General";
     selectedCategory.id = 1;
   }
+ 
   const url = `${forumCategoryUrl}${selectedCategory.className}/${id}`;
   const linkText = selectedCategory.category;
   const linkClass = `category ${selectedCategory.className}`;
 
+  /* ---------------------------- convert into html --------------------------- */
   return `<a href="${url}" class="${linkClass}" target="_blank">
     ${linkText}
   </a>`;
