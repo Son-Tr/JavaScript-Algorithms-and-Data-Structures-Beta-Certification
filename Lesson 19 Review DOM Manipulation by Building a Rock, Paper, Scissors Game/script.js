@@ -50,3 +50,33 @@ function getRandomComputerResult() {
     }
   
   };
+
+  function resetGame() {
+    playerScore = 0;
+    computerScore = 0;
+    computerScoreSpanElement.innerText = computerScore;
+    playerScoreSpanElement.innerText = playerScore;
+    resetGameBtn.style.display = "none";
+    optionsContainer.style.display = "block";
+    roundResultsMsg.innerHTML ="";
+    winnerMsgElement.innerHTML ="";
+  
+  };
+  
+  resetGameBtn.addEventListener("click", resetGame);
+  
+  const rockBtn = document.getElementById("rock-btn");
+  const paperBtn = document.getElementById("paper-btn");
+  const scissorsBtn = document.getElementById("scissors-btn");
+  
+  rockBtn.addEventListener("click", function () {
+    showResults("Rock");
+  });
+  
+  paperBtn.addEventListener("click", function () {
+    showResults("Paper");
+  });
+  
+  scissorsBtn.addEventListener("click", function () {
+    showResults("Scissors");
+  });
