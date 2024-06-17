@@ -22,3 +22,14 @@ h1{
     flex-direction: column;
     justify-items: center; align-items: center;
 }
+
+.input_box{
+    background-color: #3b3b4f;
+    color:#f5f6f7;
+    border: 3px solid #f5f6f7;
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto ;
+    
+}
