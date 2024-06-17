@@ -11,3 +11,14 @@ body {
     font-family: 'Castoro Titling', serif;
 
 }
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+    max-width: 350px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center; align-items: center;
+}
