@@ -31,3 +31,24 @@
     margin-bottom: 20px;
   }
   
+  h1 {
+    color: white;
+    width: 100%;
+    max-width: 480px;
+    margin: 15px 0;
+    text-align: var(--center-text);
+  }
+  
+  .phone-container {
+    position: relative;
+    background-color: var(--phone-colors);
+    width: 250px;
+    height: 460px;
+    margin: 30px auto;
+    border-radius: 15px;
+    border: 15px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
