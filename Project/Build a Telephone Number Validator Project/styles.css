@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --phone-colors: #dfdfe2;
+    --center-text: center;
+    --gray-00: #fff;
+  }
+  
+  body {
+    background-color: #3b3b4f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0a0a23;
+  }
