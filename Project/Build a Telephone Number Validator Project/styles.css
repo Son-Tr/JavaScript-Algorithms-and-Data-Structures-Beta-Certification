@@ -110,3 +110,19 @@ label {
     height: 265px;
     width: 100%;
   }
+  .results-true {
+    font-size: 1.2rem;
+    padding: 5px;
+    text-align: var(--center-text);
+    margin: 10px 0;
+    color:#32CD32;
+  }
+  
+  .results-false{
+    font-size: 1.2rem;
+    padding: 5px;
+    text-align: var(--center-text);
+    margin: 10px 0;
+    color:#FF4500;
+  }
+  
