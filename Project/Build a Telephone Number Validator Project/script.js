@@ -20,18 +20,22 @@ const checkNumber = (value) => {
 
 
 check.addEventListener("click", () => {
-   checkNumber(input.value)
+   checkNumber(input.value);
+   input.value ="";
 
 })
 input.addEventListener("keydown", (e) => {
    if (e.key == "Enter") {
       checkNumber(input.value)
+   input.value ="";
+
    }
 })
 
 
 clear.addEventListener("click", () => {
    
-   return result.innerHTML = ""
+   return result.innerHTML = "";
+
 
 })
