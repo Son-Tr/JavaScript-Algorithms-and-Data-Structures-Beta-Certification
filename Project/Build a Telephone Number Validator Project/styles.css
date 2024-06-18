@@ -93,3 +93,20 @@ label {
     align-items: center;
     justify-content: center;
   }
+  .btn-styles {
+    cursor: pointer;
+    width: 100px;
+    margin: 10px;
+    color: #0a0a23;
+    font-size: 18px;
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff, #928d86);
+    border-color: #ffffff;
+    border-width: 3px;
+  }
+  
+  #results-div {
+    overflow-y: auto;
+    height: 265px;
+    width: 100%;
+  }
