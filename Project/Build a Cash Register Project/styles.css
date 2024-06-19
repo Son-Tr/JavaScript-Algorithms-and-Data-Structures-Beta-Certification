@@ -80,3 +80,22 @@ button:hover {
 .card-cid{
     text-align: center;
 }
+
+#price{
+    
+    font-size: 1.2rem;
+    height: 1.5rem;
+    background-color: #8572cc;
+    padding: 0.5rem 2rem;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+
+    }
+}
