@@ -27,3 +27,34 @@ const convertValue = (val) => {
         .replace(/\s+/g, '-')
         .replace(/^0+/, '');
 }
+
+// get Api function
+const getApi = async () => {
+    loading.style.display = "block";
+    let valueInp = convertValue(input.value);
+    let arrValue = [valueInp, `${valueInp}-f`, `${valueInp}-m`]
+    let isCheck = false; //Variable to track if you find Pokémon
+    for (const name of arrValue) {
+        try {
+            const res = await fetch(`https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/${name}`)
+
+            const data = await res.json();
+            img = [data.sprites]
+            covertData(data) //convert data by covertData
+            isCheck = true;
+            //show  btn back and front
+            back.style.display = "block";
+            front.style.display = "block";
+            loading.style.display = "none";
+            return;
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    if (!isCheck) {
+        resetPage()
+        alert('Pokémon not found');
+    }
+    // hiden btn back and front
+    loading.style.display = "none";
+}
