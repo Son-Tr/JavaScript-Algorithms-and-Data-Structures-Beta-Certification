@@ -108,3 +108,20 @@ const resetPage = () => {
       front.style.display = "none";
 
 }
+// event listener click
+btn.addEventListener("click", () => {
+    console.log("click")
+    getApi()
+    input.value = "";
+})
+
+// enter press
+
+input.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+        console.log("Enter")
+        getApi()
+        input.value = "";
+
+    }
+})
