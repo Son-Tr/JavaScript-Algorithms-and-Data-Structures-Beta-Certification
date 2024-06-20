@@ -125,3 +125,16 @@ input.addEventListener("keydown", e => {
 
     }
 })
+// click change img
+front.addEventListener("click", () => {
+    if (img.length > 0) {
+        imgPokemon.innerHTML = `<img id="sprite" src="${img[0].front_default}" alt="front-img"/>`
+        console.log("img", img);
+    }
+})
+
+back.addEventListener("click", () => {
+    if (img.length > 0) {
+        imgPokemon.innerHTML = `<img id="sprite" src="${img[0].back_default}" alt="back-img"/>`
+    }
+})
