@@ -58,3 +58,29 @@ const getApi = async () => {
     // hiden btn back and front
     loading.style.display = "none";
 }
+// convert data into Html
+const covertData = (data) => {
+    const { name, id, height, weight, sprites, stats, types } = data;
+
+    // top output
+    namePk.innerHTML = `<strong>${name.toUpperCase()}</strong> `;
+    idPk.textContent = `#${id}`;
+    heightPk.textContent = `Height: ${height}`;
+    weightPk.textContent = `Weight: ${weight}`;
+
+    // img pokemon
+    imgPokemon.innerHTML = `<img id="sprite" src="${sprites.front_default}" alt="${name}"/>`
+
+    //types
+    typesPk.innerHTML = types.map(item => {
+        return `<span class="type ${item.type.name}">${item.type.name}</span> `
+    }).join("")
+
+    // bottom output
+    hpPk.textContent = stats[0].base_stat;
+    attackPk.textContent = stats[1].base_stat;
+    defensePk.textContent = stats[2].base_stat;
+    spAttackPk.textContent = stats[3].base_stat;
+    spDefensePk.textContent = stats[4].base_stat;
+    speedPk.textContent = stats[5].base_stat;
+}
