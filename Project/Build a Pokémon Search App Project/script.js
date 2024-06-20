@@ -84,3 +84,27 @@ const covertData = (data) => {
     spDefensePk.textContent = stats[4].base_stat;
     speedPk.textContent = stats[5].base_stat;
 }
+
+// reload the page function
+const resetPage = () => {
+    const sprite = document.getElementById("sprite");
+    if (sprite) {
+        sprite.remove()
+    }//check id sprite and then remove it
+   
+    namePk.innerHTML = "";
+    idPk.textContent = "";
+    heightPk.textContent = "";
+    weightPk.textContent = "";
+    typesPk.innerHTML = "";
+    hpPk.textContent = "";
+    attackPk.textContent = "";
+    defensePk.textContent = "";
+    spAttackPk.textContent = "";
+    spDefensePk.textContent = "";
+    speedPk.textContent = "";
+      // hidden btn back and front
+      back.style.display = "none";
+      front.style.display = "none";
+
+}
