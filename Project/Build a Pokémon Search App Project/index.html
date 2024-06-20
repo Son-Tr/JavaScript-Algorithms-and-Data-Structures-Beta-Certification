@@ -1,13 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Build a Pokémon Search App Project</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHT_6V7i5-f6NYvjVSjGCbGitfE2bLxFHzZg&s" />
+
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <main>
+        <div class="flex">
+            <div id="loading"><span class="text-loading">Loading...</span></div>
+            <div class="header">
+                <img class="fcc-logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+                    alt="freeCodeCamp Logo" />
+                <h1 class="title">Pokémon Search App</h1>
+            </div>
+            <div class="container">
+                <div class="search">
+                    <label for="search-input">Search for Pokémon Name or ID:</label>
+                    <div class="search">
+                        <input type="text" id="search-input" required />
+                        <button id="search-button">Search</button>
+                    </div>
+                </div>
+                <div class="output">
+                    <div class="top-output">
+                        <div class="info">
+                            <span id="pokemon-name"></span>
+                            <span id="pokemon-id"></span>
+                        </div>
+                        <div class="height-weight">
+                            <span id="weight"></span>
+                            <span id="height"></span>
+                        </div>
+                        <div class="container-img">
+                            <div class="img-pokemon">
+                            </div>
+                            <div class="font-back-img">
+                                <button class="btn front">front</button> <button class="btn back">back</button>
+                            </div>
+                        </div>
+                        <div id="types">
+                        </div>
+                    </div>
+                    <div class="bottom-output">
+                        <div class="item">Base</div>
+                        <div class="item">Stats</div>
+                        <div class="item">HP:</div>
+                        <div id="hp" class="item"></div>
+                        <div class="item">Attack:</div>
+                        <div id="attack" class="item"></div>
+                        <div class="item">Defense:</div>
+                        <div id="defense" class="item"></div>
+                        <div class="item">Special Attack:</div>
+                        <div id="special-attack" class="item"></div>
+                        <div class="item">Special Defense:</div>
+                        <div id="special-defense" class="item"></div>
+                        <div class="item">Speed:</div>
+                        <div id="speed" class="item"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
     <script src="./script.js"></script>
 </body>
+
 </html>
