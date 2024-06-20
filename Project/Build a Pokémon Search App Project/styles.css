@@ -21,3 +21,19 @@
     position: relative;
   }
   
+  /* header */
+
+
+.fcc-logo {
+    height: 30px;
+    margin: 25px auto;
+    display: block;
+  
+  }
+  
+  .title {
+    text-align: center;
+    color: #f5f6f7;
+    font-size: 2em;
+  }
+  
