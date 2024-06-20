@@ -102,4 +102,25 @@
     height: 22px;
     font-size: 0.85rem;
   }
+
+  #pokemon-name {
+    font-size: 1.2em;
+  }
+  
+  #height {
+    margin-left: 1rem;
+  }
+  
+  .img-pokemon {
+    width: 100%;
+    min-height: 220px;
+  }
+  
+  
+  #sprite {
+    display: block;
+    width: 180px;
+    margin: 0 auto;
+  }
+  
   
