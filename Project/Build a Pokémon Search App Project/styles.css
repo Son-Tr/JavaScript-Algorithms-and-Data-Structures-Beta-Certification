@@ -123,4 +123,36 @@
     margin: 0 auto;
   }
   
+  #types {
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+  }
   
+  .type {
+    width: 66px;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* bottom-output */
+  
+  .bottom-output {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .item {
+    background-color: #7f21ab;
+    height: 45px;
+    text-align: center;
+    color: #f5f6f7;
+    line-height: 3rem;
+  }
